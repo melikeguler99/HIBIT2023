@@ -2,8 +2,8 @@
 
 import pandas as pd
 import os
-folder_path = '/Users/melike/Desktop/USC_datas'
-output_file = '/Users/melike/Desktop/USC_COMBİNED2.csv'
+folder_path = 'USC_datas'
+output_file = 'USC_COMBİNED2.csv'
 combined_data = pd.DataFrame()
 for filename in os.listdir(folder_path):
     if filename.endswith('.csv'):
